@@ -1,0 +1,14 @@
+<br>
+<h1>Show</h1>
+
+<strong><%= @restaurant.name %></strong>
+<br>
+<%= @restaurant.address %>
+<br>
+<%= @restaurant.phone_number %>
+<br>
+<%= link_to "Retour", restaurants_path %>
+<br>
+<%= link_to "Edit", edit_restaurant_path(@restaurant) %>
+<br>
+<%= link_to "Add a review", restaurants_path %>
